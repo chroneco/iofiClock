@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
+
+body
+{
+	font-family: 'Roboto Mono', monospace;
+	margin: 0;
+}
+
+div
+{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+}
+
+img
+{
+	position: absolute;
+	z-index: -1;
+	width: 400px;
+}
+
+#clockText
+{
+	position: absolute;
+	top: 130px;
+	left: 0;
+	right: 0;
+	width: 400px;
+	font-size: 90;
+	text-align: center;
+	color: white;
+}
